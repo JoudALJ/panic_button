@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^python -c \"from game import ai; from game\\.display import bandit_label; print\\(ai\\.classify_verdict\\('OFFENDED', 'you are so pretty and smart'\\)\\); print\\(ai\\.classify_verdict\\('ENTERTAINED', 'you are stupid'\\)\\); print\\(repr\\(bandit_label\\('irritated', 1, 3\\)\\)\\)\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
